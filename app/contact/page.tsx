@@ -1,7 +1,7 @@
 import HeaderSection from "@/components/header-section"
 import { Metadata } from "next"
 import { IoMailOpenOutline, IoCallOutline, IoLocateOutline } from "react-icons/io5"
-
+import ContactForm from "@/components/contact-form";
 export const metadata: Metadata = {
     title: "Contact"
 }
@@ -47,6 +47,7 @@ const ContactPage = () => {
                         </ul>
                     </div>
                     {/* Contact Form */}
+                    <ContactForm />
                 </div>
             </div>
         </div>
